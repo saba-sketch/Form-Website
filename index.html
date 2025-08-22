@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="main">
+     <h2>Registration Form</h2>
+    <form onsubmit="return validateForm()" class="form">
+       
+            <input class="inp" id="name" type="text" placeholder="enter your name">
+       
+            <input class="inp" id="email" type="text" placeholder="enter your Email">
+      
+            <input class="inp" id="password" type="password" placeholder="Enter your password">
+       
+             <input class="inp" type="password" placeholder="confirm password">
+      
+       
+            
+            <button class="btn" value="Register" type="submit">Register</button>
+           
+           
+    </form>
+    <p id="message"></p>
+   </div>
+</body>
+<script src="index.js"></script>
+</html>
